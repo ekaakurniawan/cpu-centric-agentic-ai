@@ -34,7 +34,7 @@ This repository provides a complete benchmarking suite for characterizing latenc
 - Model (customizable): GPT-OSS-20B (via vLLM) 
 - Optimization: Parallel URL fetching, batch LLM inference
 
-**Location**: [`langchain/`](langchain/) | [README](langchain/README.md)
+**Location**: [`langchain/`](langchain/) | [README](langchain/README.md) | [XPU](langchain/XPU.md)
 
 ### 2. Haystack (RAG System)
 
