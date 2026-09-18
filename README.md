@@ -46,7 +46,7 @@ This repository provides a complete benchmarking suite for characterizing latenc
 - Scale: 10M+ documents with 768-dim embeddings
 - Optimization: Memory-mapped I/O, LRU shard caching, parallel retrieval
 
-**Location**: [`haystack/`](haystack/) | [README](haystack/README.md)
+**Location**: [`haystack/`](haystack/) | [README](haystack/README.md) | [XPU](haystack/XPU.md)
 
 ### 3. Mini-SWE-Agent (Code Generation)
 
