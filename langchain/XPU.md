@@ -30,6 +30,7 @@ web_search → fetch_url → summarize → final_answer
 - Memory: 64 GB
 - GPU: Intel® Arc™ B580 Graphics
 - GPU Memory: 12 GB
+- Storage: 500 GB
 
 ### Software Dependencies
 
@@ -55,9 +56,9 @@ source agentic_langchain_orchestrator_env/bin/activate
 python -m pip install --upgrade pip
 
 pip install langchain==0.3.27 langgraph==0.6.10 langchain-core==0.3.79 langchain-community==0.3.31
-pip install requests beautifulsoup4==4.14.2 sumy==0.11.0
+pip install requests==2.34.2 beautifulsoup4==4.14.2 sumy==0.11.0
 pip install nvtx
-pip install openai
+pip install openai==3.13.0
 
 python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
 
