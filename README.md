@@ -58,7 +58,7 @@ This repository provides a complete benchmarking suite for characterizing latenc
 - Features: Bash execution, multi-step reasoning, latency profiling
 - Datasets: SWE-bench, SciCode, LiveCodeBench
 
-**Location**: [`mini-swe-agent/`](mini-swe-agent/) | [README](mini-swe-agent/README.md)
+**Location**: [`mini-swe-agent/`](mini-swe-agent/) | [README](mini-swe-agent/README.md) | [XPU](mini-swe-agent/XPU.md)
 
 ### 4. Toolformer (Math Problem-Solving)
 
